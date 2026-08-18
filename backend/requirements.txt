@@ -1,0 +1,7 @@
+﻿fastapi
+uvicorn[standard]
+numpy
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+pydantic
