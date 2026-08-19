@@ -560,7 +560,7 @@ export default function Dashboard() {
   return (
     <div>
       <nav className="navbar">
-        <strong>🐟 Fish Prediction</strong>
+        <strong>🐟 Astryx</strong>
         <div>
           <button className="btn btn-secondary" onClick={() => setShowHelp(true)} style={{ marginRight: 10 }}>❓ Help</button>
           <span style={{ marginRight: 16, color: "#9fb0c3" }}>Hi, {userName || "User"}</span>
