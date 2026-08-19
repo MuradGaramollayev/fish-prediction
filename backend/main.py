@@ -1,5 +1,4 @@
-﻿@'
-from fastapi import FastAPI, HTTPException, Depends
+﻿from fastapi import FastAPI, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import OAuth2PasswordBearer
 from pydantic import BaseModel, EmailStr
@@ -314,4 +313,3 @@ def climate_forecast(lat: float, lon: float):
         "recommended_max_annual_catch_tons_now": recommended_now,
         "recommended_max_annual_catch_tons_in_50y": recommended_future,
     }
-'@ | Out-File -Encoding utf8 main.py
