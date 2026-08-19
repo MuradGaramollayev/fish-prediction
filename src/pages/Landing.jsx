@@ -4,7 +4,7 @@ export default function Landing() {
   return (
     <div>
       <nav className="navbar">
-        <strong>🐟 Fish Prediction</strong>
+        <strong>🐟 Astryx</strong>
         <div>
           <Link to="/login" className="btn" style={{ marginRight: 8, background: "#131c2e", boxShadow: "none" }}>
             Log In
@@ -17,7 +17,7 @@ export default function Landing() {
         <span className="hero-badge">AI-POWERED OCEAN MONITORING</span>
         <h1>Predict Fish Presence with AI</h1>
         <p>
-          An AI-powered monitoring system that predicts fish presence and movement
+          Astryx is an AI-powered monitoring system that predicts fish presence and movement
           using satellite-derived ocean data: sea surface temperature, chlorophyll,
           turbidity, and wind patterns.
         </p>
